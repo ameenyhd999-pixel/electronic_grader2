@@ -1,0 +1,27 @@
+name: electronic_grader
+description: تطبيق المصحح الإلكتروني للاختبارات بتقنية OMR الحقيقية ومعالجة الصور
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  material_color_utilities: ^0.11.0
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  image: ^4.1.4
+  pdf: ^3.10.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
